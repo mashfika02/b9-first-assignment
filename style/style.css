@@ -1,4 +1,4 @@
-
+/* ..............header style ..........*/
 .banner{
     text-align: center;
 margin: auto;
@@ -29,8 +29,136 @@ font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: 95px; 
- margin-top: 5px; 
+margin-top: 5px; 
 width: 632px;
 padding-left: 340px;
 }
+ /* ..............main style ..........*/
+
+ /* ......................offer style......................... */
+ .offer-container{
+    display: block;
+    /* margin-top: 100px; */
+ }
+ .offer-info-header{
+    align-items: center;
+    text-align: center;
+ }
+ .offer{  
+color: #F00; 
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 140px;
+ margin-bottom: 40px; 
+ }
+ .offer-paragraph{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   margin-top: 30px;
+ }
+ .category-header{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0px;
+ }
+ .offer-image{
+align-items: center;
+ text-align: center; 
+flex-shrink: 0;
+margin-bottom: 120px;
+ }
+  /* ......................welcome party style......................... */
+  .party{
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../images/Vectorrr.png');
+    width: 1320px;
+   height: 600px;
+   flex-shrink: 0;
+   margin: auto;
+   align-items: center;
+   border-radius: 10px ;
+
+  }
  
+  .party-header{
+    width: 642px;
+    text-align: left;
+    margin-left: 150px; 
+  
+    
+   
+  }
+  .p-header{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    text-align: left;
+    margin-bottom: 0px;
+    
+   
+  }
+  .party-paragraph{
+    width: 697px;
+    margin-left: 150px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+  }
+
+.p-paragraph{
+    
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+  }
+
+ .party-btn{
+    
+border: 1px solid ;
+border-radius: 5px;
+background-color: transparent;
+color: #f8f4f4;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 50;
+line-height: normal;
+text-transform: uppercase;
+margin-left: 150px;
+ } 
+
+ .party-image img{
+    display: flex;
+width: 319.83px;
+height: 464.662px;
+padding: 0.008px 0px 0px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+ }
+
+
+  
