@@ -358,14 +358,14 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; 
 width: 890px; 
-margin-left: 430px;
+margin-left: 445px;
 margin-top: 0px;
 margin-bottom: 100px;
 
 }
 
 .bonus{
-  width: 1320px;
+  width: 1380px;
 height: 661px;
   margin: auto;
   background-image: url('../images/Rectangle\ 2.png');
@@ -378,9 +378,9 @@ height: 661px;
 .bonus-image{
   border-radius: 16px 16px 0px 0px;
   width: 429px;
-height: 433px;
+height: 432.5px;
 flex-shrink: 0;
-margin-left: 891px;
+margin-left: 920px;
 } 
 
 
