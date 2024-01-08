@@ -387,7 +387,7 @@ margin-left: 890px;
 /*............. portfolio ...............*/
 .portfolio{
   width: 896px;
-  margin-left: 170px;
+  margin-left: 165px;
   margin-top: 150px;
 }
 .portfoli-first-header{
@@ -418,4 +418,28 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; 
 margin-top: 20px;
+}
+
+/* ............gift.............. */
+
+ .gift-container{
+  margin-top: 70px;
+  align-items: center;
+   text-align: center;
+   display: grid;
+  gap: 25px ;
+  height: 100%;
+  width: 100%;
+  
+ 
+  
+} 
+
+.gift-containe .first-column{
+  gap: 25px;
+  display:grid ;
+  
+}
+.column-photo{
+    margin-right: 25px;
 }
