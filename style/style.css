@@ -358,7 +358,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; 
 width: 890px; 
-margin-left: 435px;
+margin-left: 430px;
 margin-top: 0px;
 margin-bottom: 100px;
 
@@ -430,8 +430,7 @@ margin-top: 20px;
   gap: 25px ;
   height: 100%;
   width: 100%;
-  
- 
+  margin-bottom: 130px;
   
 } 
 
@@ -442,4 +441,91 @@ margin-top: 20px;
 }
 .column-photo{
     margin-right: 25px;
+}
+
+/* .............subscriber................. */
+.subscriber{
+width: 1320px;
+height: 616px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: auto;
+}
+.subs-info{
+  width: 896px;
+  align-items: center;
+  text-align: center; 
+  margin: auto;
+}
+.subs-header{
+  color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 20px;
+margin-top: 30px
+}
+.subs-paragraph{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-top: 0px;
+padding: 0px;
+}
+.subs-image{
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 70px;
+}
+.email-container{
+     text-align: center;
+     align-items: center;
+}
+
+.input-eamil{
+  border-radius: 50px 0px 0px 50px;
+background: #FFF;
+border: none;
+width: 648px;
+height: 72px;
+flex-shrink: 0;
+margin-top: 38px;
+
+}
+
+.subs-button{
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+width: 210px;
+height: 72px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+::placeholder{
+  color: rgba(7, 2, 17, 0.30);
+/* text-align: center; */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 20px;
 }
