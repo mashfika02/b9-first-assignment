@@ -340,6 +340,7 @@ line-height: normal;
 
 }
 .holiday{
+
   color: #F00;
 text-align: center;
 font-family: Merriweather;
@@ -359,5 +360,53 @@ line-height: 32px;
 width: 890px; 
 margin-left: 350px;
 margin-top: 0px;
+margin-bottom: 100px;
+
+}
+
+.bonus{
+  width: 1220px;
+  height:  661.5px;
+  margin: auto;
+  background-image: url('../images/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  
+ 
+ 
+}
+
+
+
+/* .bonus{
+  width: 1320px;
+  height: 400px;
+  margin: auto;
+  background-image: url('../images/Group\ 44.png');
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+.bonus-bottom{
+  border-radius: 16px 0px 16px 16px;
+ background: #F00;
+width: 1320px;
+height: 200px;
+flex-shrink: 0;
+margin: auto;
+} */
+.bonus-image{
+  border-radius: 16px 16px 0px 0px;
+  width: 429px;
+height: 433px;
+flex-shrink: 0;
+margin-left: 791px;
+} 
+.second-photo{
+  width: 206.841px;
+  height: 206.841px;
+  flex-shrink: 0;
+margin-left: 500px;
+margin-bottom: 700px;
+
 
 }
