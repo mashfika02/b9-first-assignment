@@ -218,7 +218,7 @@ text-transform: capitalize;
     flex-shrink: 0;
     margin: auto;
     justify-content: space-around;
-    margin-top: 120px;
+    margin-top: 200px;
     /* gap: 30px; */
   } 
   .coming-soon-container{
@@ -358,7 +358,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; 
 width: 890px; 
-margin-left: 430px;
+margin-left: 390px;
 margin-top: 0px;
 margin-bottom: 100px;
 
@@ -519,6 +519,12 @@ font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
 }
+
+.subs-button:hover{
+  background-color: #ffffff;
+  color: rgb(219, 39, 39);
+}
+
 ::placeholder{
   color: rgba(7, 2, 17, 0.30);
 /* text-align: center; */
@@ -528,4 +534,68 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 padding-left: 20px;
+}
+
+/*..................... footer.................... */
+footer{
+  background: #070211;
+  margin-top: 120px;
+}
+.fisrt-part{
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+  margin-top: 60px;
+  padding-top: 100px;
+}
+.second-part{
+  align-items: center;
+  text-align: center;
+}
+.third-part{
+  display: flex;
+  justify-content: space-around;
+  gap: 450px;
+  padding-bottom: 100px;
+}
+ 
+hr{
+  margin: 60px 150px;
+  background: rgba(255, 255, 255, 0.15);
+  width: 1330px;
+height: 1px;
+
+}
+.address-p{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.contact-p, .contact-pp{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+
+}
+.copy-right-p{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.unsubs-p{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
